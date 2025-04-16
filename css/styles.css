@@ -221,3 +221,25 @@ section.photos{
 /*---------------------------------------
     Icône retour
 ---------------------------------------*/
+
+a.haut{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 4px solid white;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 20px;
+    right: 15vh;
+}
+
+a.haut:hover{
+    border: 4px solid darkorange;
+}
