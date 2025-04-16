@@ -118,23 +118,11 @@ section .boite{
     text-align: start; /* marche pas */
 }
 
-.sports .boite .images{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
 
 section .boite .images a{
     width: 200px;
     text-align: center;
 }
-
-.sports .boite img{
-    width: 100%;
-    padding-bottom: 10px;
-}
-
 
 
 /*---------------------------------------
@@ -147,6 +135,19 @@ section.sports{
     background-image: url(../images/fond/bicycles.png);
 
     background-attachment: fixed;
+}
+
+
+.sports .boite .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sports .boite img{
+    width: 100%;
+    padding-bottom: 10px;
 }
 
 
